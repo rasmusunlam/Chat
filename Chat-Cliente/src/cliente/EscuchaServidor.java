@@ -54,7 +54,8 @@ public class EscuchaServidor extends Thread{
 				
 		} catch (IOException e) {
 			
-			e.printStackTrace();
+			//e.printStackTrace();
+			System.out.println("Se ha desconectado el cliente");
 		}
 		
 		

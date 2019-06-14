@@ -91,9 +91,8 @@ public class EscuchaCliente extends Thread {
 			Servidor.eliminarCliente(cliente);*/
 			
 		} catch (IOException e) {
-			e.printStackTrace();
-			
-			
+			//e.printStackTrace();
+			System.out.println("Se ha desconectado el cliente");
 		}
 		
 	}
